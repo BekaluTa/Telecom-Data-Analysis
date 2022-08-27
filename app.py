@@ -3,9 +3,9 @@ import streamlit as st
 from PIL import Image
 from streamlit_option_menu import option_menu
 
-from pages.home import home_app
-from pages.overview import overview_app
-from pages.predict import prdict_app
+from Pages.home import home_app
+from Pages.overview import overview_app
+from Pages.predict import prdict_app
 
 st.set_page_config(page_title="Telcom Data Analysis")
 
