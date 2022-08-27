@@ -5,7 +5,7 @@ from PIL import Image
 
 def home_app():
     st.title("Home")
-    image = Image.open('./assets/telco.jpg')
+    image = Image.open('./image/telecom.png')
     st.image(image, caption="Telecom data analysis", use_column_width=True)
     # components.html(
     #     """<html><body><h3>A detailed analysis of customer's data of a</h3></body></html>""", width=200, height=200)
